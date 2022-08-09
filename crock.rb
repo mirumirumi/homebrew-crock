@@ -3,7 +3,7 @@ class Crock < Formula
   homepage "https://github.com/mirumirumi/crock"
   url "https://github.com/mirumirumi/crock/releases/download/1.0.3/crock_darwin"
   version "1.0.3"
-  sha256 "41626a492c5af15a361896226f765e54268368962d9323e2dc7b5af734e93524"
+  sha256 "c5c8e7bd6ae8b6207655d7de5027a6b06c9ec32c620262b15feb6e59954f80af"
   license ""
 
   def install
