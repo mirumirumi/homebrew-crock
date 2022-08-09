@@ -7,7 +7,7 @@ class Crock < Formula
   license ""
 
   def install
-    bin.install "crock_darwin"
+    bin.install "crock_darwin" => "crock"
   end
 
   test do
