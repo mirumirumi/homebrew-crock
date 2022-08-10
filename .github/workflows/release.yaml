@@ -1,8 +1,10 @@
+name: release
+
 on:
   workflow_dispatch:
     inputs:
-      version: ""
-      sha256: ""
+      version: "1.0.0"
+      sha256: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 
 jobs:
   release:
