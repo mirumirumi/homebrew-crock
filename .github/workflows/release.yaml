@@ -3,8 +3,12 @@ name: release
 on:
   workflow_dispatch:
     inputs:
-      version: "1.0.0"
-      sha256: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+      version: 
+        type: string
+        required: true
+      sha256:
+        type: string
+        required: true
 
 jobs:
   release:
